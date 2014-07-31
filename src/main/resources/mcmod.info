@@ -1,0 +1,16 @@
+[
+{
+  "modid": "zoomit",
+  "name": "ZoomIt",
+  "description": "Simple Forge-compatible zoom mod.",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["OndraSter"],
+  "credits": "Forge guys for making Forge and everything and iChun for the idea",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
