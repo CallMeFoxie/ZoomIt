@@ -25,6 +25,9 @@ public class KeyInputHandler {
             doZoom = true;
       }
 
+      if (Minecraft.getMinecraft().currentScreen != null)
+         doZoom = false;
+
       if (doZoom && !previousDoZoom) {
          ReflectionHelper.setPrivateValue(EntityRenderer.class, Minecraft.getMinecraft().entityRenderer, ZoomIt.zoomMultiplier, "cameraZoom", "field_78503_V");
          Minecraft.getMinecraft().gameSettings.smoothCamera = true;

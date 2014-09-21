@@ -1,5 +1,5 @@
 def VersionMajor = 1
-def VersionMinor = 0
+def VersionMinor = 1
 def VersionRev = 0
 
 buildscript {
